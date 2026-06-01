@@ -15,6 +15,27 @@ Do not use this skill as product documentation. Before citing limits, settings, 
 4. If account access is available, inspect existing resources before proposing or making changes: Access apps/policies/groups/IdPs, Gateway rules/lists/categories, device profiles/posture checks, tunnels/routes, DNS/resolver settings, and locations/sites.
 5. Propose the change set with prerequisites, validation, and rollback. For risky changes, stage disabled or scoped to a pilot group/site unless the user explicitly asks otherwise.
 
+## Docs to Retrieve
+
+- [Cloudflare One](https://developers.cloudflare.com/cloudflare-one/)
+- [Choose an Access application type](https://developers.cloudflare.com/cloudflare-one/access-controls/applications/choose-application-type/)
+- [Access policies](https://developers.cloudflare.com/cloudflare-one/access-controls/policies/)
+- [Gateway traffic policies](https://developers.cloudflare.com/cloudflare-one/traffic-policies/)
+- [Gateway identity selectors](https://developers.cloudflare.com/cloudflare-one/traffic-policies/identity-selectors/)
+- [SCIM provisioning](https://developers.cloudflare.com/cloudflare-one/team-and-resources/users/scim/)
+- [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/)
+- [Tunnel connectivity prechecks](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/troubleshoot-tunnels/connectivity-prechecks/)
+- [Split Tunnels](https://developers.cloudflare.com/cloudflare-one/team-and-resources/devices/cloudflare-one-client/configure/route-traffic/split-tunnels/)
+- [Virtual networks](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/private-net/cloudflared/tunnel-virtual-networks/)
+- [Resolver policies](https://developers.cloudflare.com/cloudflare-one/traffic-policies/resolver-policies/)
+- [HTTP policies](https://developers.cloudflare.com/cloudflare-one/traffic-policies/http-policies/)
+- [TLS decryption](https://developers.cloudflare.com/cloudflare-one/traffic-policies/http-policies/tls-decryption/)
+- [Data Loss Prevention](https://developers.cloudflare.com/cloudflare-one/data-loss-prevention/)
+- [CASB findings](https://developers.cloudflare.com/cloudflare-one/cloud-and-saas-findings/manage-findings/)
+- [User risk score](https://developers.cloudflare.com/cloudflare-one/team-and-resources/users/risk-score/)
+- [Cloudflare WAN](https://developers.cloudflare.com/cloudflare-wan/)
+- [Cloudflare Network Firewall](https://developers.cloudflare.com/cloudflare-network-firewall/)
+
 ## Assessment Prompts
 
 Use these to avoid jumping straight to configuration. Ask only the prompts relevant to the user's task.
@@ -73,7 +94,9 @@ Use these to avoid jumping straight to configuration. Ask only the prompts relev
 - Gateway DNS, Network, HTTP, and Egress policies have different evaluation semantics. Retrieve current docs before explaining precedence.
 - Start broad block/allow/DLP/TLS policies disabled, in audit, or limited to a pilot unless the user approves a wider rollout.
 
-## Non-Obvious Product Context
+## Documented Guardrails
+
+These points are documented in Cloudflare docs, but are easy to miss when composing multiple Cloudflare One products. Treat them as checks, not as the source of truth.
 
 ### Identity and Access
 

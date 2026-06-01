@@ -17,6 +17,24 @@ Retrieve current Cloudflare docs, Cloudflare API schemas, and source-vendor expo
 6. Stage safely: use a migration prefix, create disabled/audit-mode rules by default, pilot with small groups/sites, compare logs, then expand rollout.
 7. Account for every source rule. Each rule must map to a Cloudflare object or an explicit Not Migrated row with reason and security impact.
 
+## Docs to Retrieve
+
+- [Network VPN migration design guide](https://developers.cloudflare.com/reference-architecture/design-guides/network-vpn-migration/)
+- [Replace your VPN](https://developers.cloudflare.com/cloudflare-one/setup/replace-vpn/)
+- [Secure private apps](https://developers.cloudflare.com/cloudflare-one/setup/secure-private-apps/)
+- [Access application types](https://developers.cloudflare.com/cloudflare-one/access-controls/applications/choose-application-type/)
+- [Access policies](https://developers.cloudflare.com/cloudflare-one/access-controls/policies/)
+- [Gateway traffic policies](https://developers.cloudflare.com/cloudflare-one/traffic-policies/)
+- [Gateway identity selectors](https://developers.cloudflare.com/cloudflare-one/traffic-policies/identity-selectors/)
+- [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/)
+- [Split Tunnels](https://developers.cloudflare.com/cloudflare-one/team-and-resources/devices/cloudflare-one-client/configure/route-traffic/split-tunnels/)
+- [Resolver policies](https://developers.cloudflare.com/cloudflare-one/traffic-policies/resolver-policies/)
+- [DLP](https://developers.cloudflare.com/cloudflare-one/data-loss-prevention/)
+- [CASB findings](https://developers.cloudflare.com/cloudflare-one/cloud-and-saas-findings/manage-findings/)
+- [Egress policies](https://developers.cloudflare.com/cloudflare-one/traffic-policies/egress-policies/)
+- [Cloudflare WAN](https://developers.cloudflare.com/cloudflare-wan/)
+- [Cloudflare Network Firewall](https://developers.cloudflare.com/cloudflare-network-firewall/)
+
 ## Exports To Ask For
 
 - ZIA: URL filtering, firewall filtering, SSL inspection, DLP, custom URL categories, IP groups, network services/service groups, users/groups/departments, locations, GRE tunnels, and static IPs.
