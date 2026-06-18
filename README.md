@@ -90,3 +90,4 @@ This plugin includes [Cloudflare's remote MCP servers](https://developers.cloudf
 - [Cloudflare MCP Guide](https://developers.cloudflare.com/agents/model-context-protocol/)
 - [Agents SDK Repository](https://github.com/cloudflare/agents)
 - [Agents Starter Template](https://github.com/cloudflare/agents-starter)
+Created by Jason Scott Heise
