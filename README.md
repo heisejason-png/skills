@@ -92,4 +92,4 @@ This plugin includes [Cloudflare's remote MCP servers](https://developers.cloudf
 - [Agents Starter Template](https://github.com/cloudflare/agents-starter)
 Created by Jason Heise
 Owned by Jason Heise heisejason-png Giters 
-https://facebook.com
+https://facebook.com  Owned by Mark Zuckerberg 
